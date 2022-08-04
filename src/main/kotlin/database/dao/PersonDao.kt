@@ -1,11 +1,11 @@
-package database
+package database.dao
 
 import org.jetbrains.exposed.dao.IntEntity
 import org.jetbrains.exposed.dao.IntEntityClass
 import org.jetbrains.exposed.dao.id.EntityID
 import org.jetbrains.exposed.dao.id.IntIdTable
-import database.RoomDao.Rooms
-import database.RoomDao.Room
+import database.dao.RoomDao.Rooms
+import database.dao.RoomDao.Room
 import org.jetbrains.exposed.sql.ReferenceOption
 
 object PersonDao {

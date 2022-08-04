@@ -2,13 +2,13 @@ package database
 
 import database.DatabaseCore.connection
 import org.jetbrains.exposed.sql.transactions.transaction
-import database.BuildingDao.Buildings
-import database.BuildingDao.Building
-import database.RoomDao.Rooms
-import database.RoomDao.Room
+import database.dao.BuildingDao.Buildings
+import database.dao.BuildingDao.Building
+import database.dao.RoomDao.Rooms
+import database.dao.RoomDao.Room
 import org.jetbrains.exposed.sql.*
-import database.PersonDao.Persons
-import database.PersonDao.Person
+import database.dao.PersonDao.Persons
+import database.dao.PersonDao.Person
 
 fun main() {
     Main.start()

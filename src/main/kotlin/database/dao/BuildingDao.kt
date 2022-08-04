@@ -1,4 +1,4 @@
-package database
+package database.dao
 
 import org.jetbrains.exposed.dao.IntEntity
 import org.jetbrains.exposed.dao.IntEntityClass
@@ -15,7 +15,6 @@ object BuildingDao {
     class Building(id: EntityID<Int>) : IntEntity(id) {
         companion object : IntEntityClass<Building>(Buildings)
 
-        //val rooms by RoomDao.Room referrersOn RoomDao.Rooms.id
         var name by Buildings.name
 
         override fun toString(): String {
